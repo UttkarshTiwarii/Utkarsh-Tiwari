@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import UTKARSH_TIWARI_Resume from "../../assets/gallery/Utkarsh_Tiwari_Resume.pdf";
+import UTKARSH_TIWARI_Resume from "../../assets/gallery/UTKARSH_TIWARI_Resume.pdf";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +21,7 @@ function Navbar() {
     <header className="site-header">
       <div className="nav-shell">
         <Link className="nav-brand" to="/" aria-label="Go to home page">
-          <img className="logo" src="/Logo.png" alt="Utkarsh Tiwari logo" />
+          <img className="logo" src="/Logo.webp" alt="Utkarsh Tiwari logo" />
           <span className="nav-brand-text">
             <strong>Utkarsh Tiwari</strong>
             <small>Portfolio</small>
